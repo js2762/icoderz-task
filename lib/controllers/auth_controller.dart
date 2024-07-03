@@ -130,6 +130,7 @@ class AuthController extends GetxController {
   }
 
   logOut() async {
+    FirebaseAuth.instance.signOut();
     await _googleSignIn.signOut();
     storageServiceController.earningEntryBox.clear();
     storageServiceController.expensesEntryBox.clear();
