@@ -46,7 +46,6 @@ class AuthController extends GetxController {
   }
 
 
-
   Future<void> login() async {
     loginLoading.value = true;
     try {

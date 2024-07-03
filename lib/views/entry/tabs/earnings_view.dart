@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:icoderz_task/widgets/custom_edit_dialog_box.dart';
+import 'package:intl/intl.dart';
 
 import '../../../controllers/entry_controller.dart';
 
@@ -14,6 +15,7 @@ class EarningsView extends StatefulWidget {
 class _EarningsViewState extends State<EarningsView> {
 
   final entryController = Get.find<EntryController>();
+  DateFormat dateFormat = DateFormat('dd-MM-yyyy h:mm a');
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +45,7 @@ class _EarningsViewState extends State<EarningsView> {
                   ),
                 ),
                 title: Text(entryItem.description),
-                subtitle: Text(entryItem.time.toString()),
+                subtitle: Text(dateFormat.format(entryItem.time)),
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
