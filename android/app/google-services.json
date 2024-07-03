@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "569681414172",
+    "project_id": "finance-management-5d958",
+    "storage_bucket": "finance-management-5d958.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569681414172:android:6a1ca6ed33dd5aaec3f7d9",
+        "android_client_info": {
+          "package_name": "com.practical.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569681414172-hnee1qirb6uklb5d85p1c1rfr2a4kklk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practical.example",
+            "certificate_hash": "56bf3c52244d0f21c8dd9896ef132b1846a4b867"
+          }
+        },
+        {
+          "client_id": "569681414172-fefg2g5mus0535tlv0gh7jo7d6i3edpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQKGnajk50zQJhXmUqkWYxdYmNt0GrpdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569681414172-fefg2g5mus0535tlv0gh7jo7d6i3edpl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "569681414172-od2kv1llg64c9riis1uf745i4lf42i54.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.icoderzTask"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
